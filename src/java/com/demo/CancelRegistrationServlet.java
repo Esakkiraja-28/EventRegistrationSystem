@@ -106,18 +106,22 @@ public class CancelRegistrationServlet extends HttpServlet
                 // Send Email
                 //---------------------------------
 
+               
                 final String senderEmail =
-                "eventregistrationsystem2026@gmail.com";
+"eventregistrationsystem2026@gmail.com";
 
-                final String appPassword =
-                "tpvtpfrtaqgfklvm";
+final String smtpLogin =
+"b11c79001@smtp-brevo.com";
+
+final String smtpPassword =
+"vpT60sngKMX3dJRq";
 
                 Properties props =
                 new Properties();
 
                 props.put("mail.smtp.auth","true");
                 props.put("mail.smtp.starttls.enable","true");
-                props.put("mail.smtp.host","smtp.gmail.com");
+                props.put("mail.smtp.host","smtp-relay.brevo.com");
                 props.put("mail.smtp.port","587");
 
                 Session mailSession =
@@ -130,9 +134,9 @@ public class CancelRegistrationServlet extends HttpServlet
                     getPasswordAuthentication()
                     {
 
-                        return new PasswordAuthentication(
-                        senderEmail,
-                        appPassword);
+                       return new PasswordAuthentication(
+smtpLogin,
+smtpPassword);
 
                     }
 

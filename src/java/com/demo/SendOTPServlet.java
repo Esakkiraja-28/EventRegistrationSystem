@@ -96,23 +96,25 @@ session.setAttribute("lastOtpSent", System.currentTimeMillis());
             // Gmail Settings
             //----------------------------------------
 
-            final String senderEmail =
-            "eventregistrationsystem2026@gmail.com";
+           final String senderEmail =
+"eventregistrationsystem2026@gmail.com";
 
-            final String appPassword =
-            "tpvtpfrtaqgfklvm";
+final String smtpLogin =
+"b11c79001@smtp-brevo.com";
+
+final String smtpPassword =
+"vpT60sngKMX3dJRq";
 
             Properties props =
             new Properties();
 
             props.put("mail.smtp.auth", "true");
             props.put("mail.smtp.starttls.enable", "true");
-            props.put("mail.smtp.host", "smtp.gmail.com");
+           props.put("mail.smtp.host","smtp-relay.brevo.com");
             props.put("mail.smtp.port", "587");
             props.put("mail.smtp.connectiontimeout", "10000");
 props.put("mail.smtp.timeout", "10000");
 props.put("mail.smtp.writetimeout", "10000");
-props.put("mail.smtp.ssl.protocols", "TLSv1.2");
             Session mailSession =
             Session.getInstance(
             props,
@@ -121,8 +123,8 @@ props.put("mail.smtp.ssl.protocols", "TLSv1.2");
                 protected PasswordAuthentication getPasswordAuthentication() {
 
                     return new PasswordAuthentication(
-                            senderEmail,
-                            appPassword);
+smtpLogin,
+smtpPassword);
 
                 }
 

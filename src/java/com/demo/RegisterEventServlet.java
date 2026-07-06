@@ -4,11 +4,12 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-
+import javax.mail.PasswordAuthentication;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-
+import javax.mail.*;
+import javax.mail.internet.*;
 @WebServlet("/RegisterEventServlet")
 public class RegisterEventServlet extends HttpServlet
 {
@@ -157,18 +158,21 @@ if(eventRS.next())
     // Send Registration Email
     // ==============================
 
-    final String senderEmail =
-    "eventregistrationsystem2026@gmail.com";
+     final String senderEmail =
+"eventregistrationsystem2026@gmail.com";
 
-    final String appPassword =
-    "tpvtpfrtaqgfklvm";
+final String smtpLogin =
+"b11c79001@smtp-brevo.com";
+
+final String smtpPassword =
+"vpT60sngKMX3dJRq";
 
     java.util.Properties props =
     new java.util.Properties();
 
     props.put("mail.smtp.auth","true");
     props.put("mail.smtp.starttls.enable","true");
-    props.put("mail.smtp.host","smtp.gmail.com");
+   props.put("mail.smtp.host","smtp-relay.brevo.com");
     props.put("mail.smtp.port","587");
 
     javax.mail.Session mailSession =
@@ -179,9 +183,10 @@ if(eventRS.next())
         protected javax.mail.PasswordAuthentication
         getPasswordAuthentication()
         {
-            return new javax.mail.PasswordAuthentication(
-            senderEmail,
-            appPassword);
+          return new javax.mail.PasswordAuthentication(
+    smtpLogin,
+    smtpPassword
+);
         }
     });
 
