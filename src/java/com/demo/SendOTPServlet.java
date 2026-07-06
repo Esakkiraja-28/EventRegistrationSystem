@@ -141,19 +141,25 @@ session.setAttribute("lastOtpSent", System.currentTimeMillis());
             message.setText(
             "Your OTP is: " + otp);
 
-            Transport.send(message);
+           System.out.println("STEP 1 : Before Transport.send()");
+
+Transport.send(message);
+
+System.out.println("STEP 2 : Email Sent Successfully");
 
             response.sendRedirect(
             "verify-otp.jsp");
 
         }
-        catch(Exception e) {
+        catch(Exception e)
+{
+    System.out.println("STEP 3 : Exception Occurred");
 
-            e.printStackTrace();
+    e.printStackTrace();
 
-            response.getWriter().println(e);
-
-        }
+    response.setContentType("text/plain");
+    e.printStackTrace(response.getWriter());
+}
 
     }
 
