@@ -100,10 +100,10 @@ session.setAttribute("lastOtpSent", System.currentTimeMillis());
 "eventregistrationsystem2026@gmail.com";
 
 final String smtpLogin =
-"b11c79001@smtp-brevo.com";
+"b11e0b001@smtp-brevo.com";
 
 final String smtpPassword =
-"vpT60sngKMX3dJRq";
+"IAKTfmWkvxdq7XgM";
 
             Properties props =
             new Properties();
