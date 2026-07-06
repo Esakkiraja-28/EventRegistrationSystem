@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/AdminDashboardServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/admin/create-event.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/student/myregistrations.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/register.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/admin/registrations.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/RegisterEventServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/ResetPasswordServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/SendOTPServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/student/dashboard.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/EditEventServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/images/admin.jpg</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/CancelRegistrationServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/admin/event-list.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/StudentDashboardServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/RegisterServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/admin/dashboard.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/images/student1.jpg</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/admin/users.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/index.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/verify-otp.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/forgot-password.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/UploadPhotoServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/VerifyOTPServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/student/events.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/DeleteEventServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/admin/edit-event.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/LoginServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/src/java/com/demo/LogoutServlet.java</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/student/profile.jsp</file>
+            <file>file:/C:/Users/itsme/OneDrive/Documents/NetBeansProjects/EventRegistrationSystem/web/reset-password.jsp</file>
+        </group>
+    </open-files>
+</project-private>
