@@ -110,7 +110,7 @@ public class CancelRegistrationServlet extends HttpServlet
                 "eventregistrationsystem2026@gmail.com";
 
                 final String appPassword =
-                "etccvbddxsueyhtf";
+                "tpvtpfrtaqgfklvm";
 
                 Properties props =
                 new Properties();

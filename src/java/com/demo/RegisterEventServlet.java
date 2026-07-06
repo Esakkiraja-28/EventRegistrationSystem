@@ -161,7 +161,7 @@ if(eventRS.next())
     "eventregistrationsystem2026@gmail.com";
 
     final String appPassword =
-    "etccvbddxsueyhtf";
+    "tpvtpfrtaqgfklvm";
 
     java.util.Properties props =
     new java.util.Properties();
