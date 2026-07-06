@@ -109,7 +109,10 @@ session.setAttribute("lastOtpSent", System.currentTimeMillis());
             props.put("mail.smtp.starttls.enable", "true");
             props.put("mail.smtp.host", "smtp.gmail.com");
             props.put("mail.smtp.port", "587");
-
+            props.put("mail.smtp.connectiontimeout", "10000");
+props.put("mail.smtp.timeout", "10000");
+props.put("mail.smtp.writetimeout", "10000");
+props.put("mail.smtp.ssl.protocols", "TLSv1.2");
             Session mailSession =
             Session.getInstance(
             props,
@@ -151,10 +154,9 @@ System.out.println("STEP 2 : Email Sent Successfully");
             "verify-otp.jsp");
 
         }
-        catch(Exception e)
+catch(Exception e)
 {
     System.out.println("STEP 3 : Exception Occurred");
-
     e.printStackTrace();
 
     response.setContentType("text/plain");
